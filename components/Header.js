@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-sm border-b">
+    <header className="sticky top-0 bg-white shadow-sm border-b">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
